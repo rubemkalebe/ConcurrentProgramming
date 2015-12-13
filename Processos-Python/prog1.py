@@ -7,7 +7,6 @@
 #
 # Rubem Kalebe (2015.2)
 #
-# python prog1.py
 
 import sys
 import os
@@ -36,7 +35,7 @@ elif pid > 1:
 	print "PID pai: " + str(pid)
 	for j in range(0, m):
 		print "Sou o Pai, meu PID eh: " + str(pid) + " e J = " + str(j)
-
+	
 	print "---Vou executar o filho!"
 	os.wait()
 	print "O filho encerrou, agora irei encerrar!"
